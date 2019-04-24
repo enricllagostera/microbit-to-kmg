@@ -40,7 +40,7 @@ while is_playing:
         move_x = -speed
 
     if input_x > horizontal_threshold:
-        # Prepare move mouse left
+        # Prepare move mouse right
         print('right')
         move_x = speed
 
@@ -55,7 +55,7 @@ while is_playing:
         move_y = speed
 
     # Apply the calculated movement to the operating system's mouse
-    mouse.move(move_x, move_y, absolute=False)
+    mouse.move(move_x, move_y, absolute=False, duration=0.01)
 
     # Exit logic
     if microbit.button_b.was_pressed():
