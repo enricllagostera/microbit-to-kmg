@@ -68,7 +68,6 @@ while is_playing:
     if microbit.pin0.is_touched() and not is_mouse_pressed:
         # Moves to a point closer to the center of the screen
         # for better dragging.
-
         mouse.move(400, 400, True)
         mouse.press('left')
         is_mouse_pressed = True
