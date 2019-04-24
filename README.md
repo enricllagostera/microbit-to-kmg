@@ -1,6 +1,16 @@
-# Microbit to keyboard / mouse / gamepad
+# microbit-to-keyboard-mouse-gamepad
 
 Experiments in using the microbit board to simulate keyboards, mouse and gamepads (not yet, though) via USB.
+
+![Example of using the accelerometer to control mouse movement.](microbit-mouse-smaller.gif)
+
+_Example of using the accelerometer to control mouse movement._
+
+## Motivation
+
+One of the obstacles when creating alternative controllers and more accessible interfaces is that few games or software have open and flexible ways to customize their inputs. Many support devices like keyboards and mouse, so creating ways for different devices to "disguise" themselves as keyboard and mouse can facilitate experimentation. So, I prepared these examples in order to prepare for the _DesignJam: Accessible Gamepad Challenge_ at the [accessXchange forum](https://www.accessxchangeforum.com/).
+
+The microbit is an interesting device for this because it features a variety of sensors that can be combined to create new interfaces. Projects like [bitio](https://github.com/whaleygeek/bitio) and [MicroBike](https://github.com/musabkilic/MicroBike) were inspirations in making these examples.
 
 ## Installation guide
 
@@ -18,7 +28,7 @@ You can create your own scripts by copying and changing the example scripts. The
 
 If you'd like to explore the possibilities of the libraries being used, please check their documentation linked below. It can be good for coming up with ideas.
 
-- [bitio](https://github.com/whaleygeek/bitio).
+- [bitio](https://github.com/whaleygeek/bitio)
 - [mouse](https://github.com/boppreh/mouse)
 - [keyboard](https://github.com/boppreh/keyboard)
 
