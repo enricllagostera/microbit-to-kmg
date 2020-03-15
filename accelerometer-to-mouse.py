@@ -26,7 +26,7 @@ speed = 3
 # Main loop
 is_playing = True
 while is_playing:
-    time.sleep(0.01)
+    microbit.sleep(5)
 
     # Get data from the accelerometer sensor
     input_x = microbit.accelerometer.get_x()

@@ -22,7 +22,7 @@ The microbit is an interesting device for this because it features a variety of 
 6. Flash the `bitio.hex` (on the `bitio` folder you downloaded) to the microbit by copying it the MICROBIT drive that shows in the explorer.
 7. Now you are ready to run the examples using the commands `python accelerometer-to-mouse.py` or `python button-to-keypress.py`.
 
-You can create your own scripts by copying and changing the example scripts. The scripts are commented. To run your scripts, you can use the `python your_script_filename.py`.
+You can create your own scripts by copying and changing the example scripts. The scripts are commented to explain their general structure and key sections. To run your scripts, you can use the `python your_script_filename.py` command on the terminal.
 
 ## Dependencies
 

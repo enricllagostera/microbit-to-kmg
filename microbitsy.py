@@ -11,6 +11,7 @@ import time
 import microbit
 import keyboard
 
+
 # Intro moment: the first button press activates the script.
 print("*** microbitsy ***\nPress A to start and B to quit.")
 started = False
@@ -33,12 +34,13 @@ time.sleep(1)
 is_playing = True
 while is_playing:
     # Reset chosen action
-    time.sleep(0.001)
+    microbit.sleep(0.001)
     action = ''
 
     # Get data from the accelerometer sensor
     input_x = microbit.accelerometer.get_x()
     input_y = microbit.accelerometer.get_y()
+    print(microbit.accelerometer.get_values())
 
     if input_x < -horizontal_threshold:
         # Select left movement

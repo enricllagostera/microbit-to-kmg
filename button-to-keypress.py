@@ -1,4 +1,4 @@
-""" 
+"""
 # Microbit button to keypress
 In this script, the A button on the microbit triggers a press and release keyboard event that is recognized by the operating system. You can use it for playing one-button games and the key being activated can be customized.
 """
